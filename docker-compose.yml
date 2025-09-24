@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  game-api:
+    image: game-scoring-api:latest
+    build: .
+    ports:
+      - "3000:3000"

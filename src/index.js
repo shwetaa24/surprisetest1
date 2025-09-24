@@ -14,7 +14,7 @@ app.post('/score', (req, res) => {
 });
 
 app.get('/scores', (req, res) => {
-  res.send(scores);
+  res.send('Game Scoring API is running!');
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
